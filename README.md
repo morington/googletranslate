@@ -14,7 +14,7 @@
 
 ```bash
 cd ~/.local/bin
-git clone https://github.com/morington/googletranslation.git
+git clone https://github.com/morington/googletranslate.git
 ```
 
 ### Шаг 2: Создание виртуального окружения (опционально)
@@ -44,14 +44,14 @@ pip install -r requirements.txt
 
 ```bash
 #!/bin/bash
-~/.local/bin/googletranslation/venv/bin/python ~/.local/bin/googletranslation/trans.py "$@"
+~/.local/bin/googletranslate/venv/bin/python ~/.local/bin/googletranslate/trans.py "$@"
 ```
 
 Если вы используете системный Python, измените путь на:
 
 ```bash
 #!/bin/bash
-/usr/bin/python3 ~/.local/bin/googletranslation/trans.py "$@"
+/usr/bin/python3 ~/.local/bin/googletranslate/trans.py "$@"
 ```
 
 ### Шаг 5: Создание символической ссылки
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 Создайте символическую ссылку на `trans.sh` в директории `~/.local/bin`:
 
 ```bash
-ln -s ~/.local/bin/googletranslation/trans.sh ~/.local/bin/trans
+ln -s ~/.local/bin/googletranslate/trans.sh ~/.local/bin/trans
 ```
 
 ### Шаг 6: Добавление пути в переменную окружения
