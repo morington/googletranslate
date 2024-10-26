@@ -44,14 +44,14 @@ pip install -r requirements.txt
 
 ```bash
 #!/bin/bash
-~/.local/bin/googletranslate/venv/bin/python ~/.local/bin/googletranslate/trans.py "$@"
+~/.local/bin/googletranslate/venv/bin/python ~/.local/bin/googletranslate/main.py "$@"
 ```
 
 Если вы используете системный Python, измените путь на:
 
 ```bash
 #!/bin/bash
-/usr/bin/python3 ~/.local/bin/googletranslate/trans.py "$@"
+/usr/bin/python3 ~/.local/bin/googletranslate/main.py "$@"
 ```
 
 ### Шаг 5: Создание символической ссылки
@@ -60,6 +60,12 @@ pip install -r requirements.txt
 
 ```bash
 ln -s ~/.local/bin/googletranslate/trans.sh ~/.local/bin/trans
+```
+
+При необходимости сделайте скрипт запускаемым
+
+```bash
+chmod +x trans.sh
 ```
 
 ### Шаг 6: Добавление пути в переменную окружения
