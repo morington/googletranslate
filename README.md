@@ -117,7 +117,7 @@ trans -t "Привет, мир!" -sl ru -tl en
 
 ---
 <a href="https://github.com/morington/googletranslate/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=morington/googletranslate"/>
+  <img src="https://contrib.rocks/image?repo=morington/googletranslate" />
 </a>
 
 ## Благодарности
